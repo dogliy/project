@@ -33,28 +33,28 @@ window.onload=function(){
     obj_table_head.style.borderTop="2px solid #c0c0c0";
     obj_table_head.style.borderRight="2px solid #c0c0c0";
     obj_table_head.style.borderLeft="2px solid #c0c0c0";
-    obj_table_head.style.backgroundColor="green";
+    obj_table_head.style.backgroundColor="#e6e6e6";
 
 
    
    
     
-    add_top_menu_box(77,"תמונה",obj_table_head,1,"yellow",0);
-    add_top_menu_box(120,"שם",obj_table_head,1,"yellow",0);
-    add_top_menu_box(95,"תעודת זהות",obj_table_head,1,"yellow",0);
-    add_top_menu_box(69,"כיתה",obj_table_head,1,"yellow",0);
-    add_top_menu_box(78,"מקצוע",obj_table_head,1,"yellow",0);
-    add_top_menu_box(108,"בית ספר",obj_table_head,1,"yellow",0);
-    add_top_menu_box(120,"סיכום שעות",obj_table_head,0,"yellow",0);
+    add_top_menu_box(77,"תמונה",obj_table_head,1,"#e6e6e6",0);
+    add_top_menu_box(120,"שם",obj_table_head,1,"#e6e6e6",0);
+    add_top_menu_box(95,"תעודת זהות",obj_table_head,1,"#e6e6e6",0);
+    add_top_menu_box(69,"כיתה",obj_table_head,1,"#e6e6e6",0);
+    add_top_menu_box(78,"מקצוע",obj_table_head,1,"#e6e6e6",0);
+    add_top_menu_box(108,"בית ספר",obj_table_head,1,"#e6e6e6",0);
+    add_top_menu_box(120,"סיכום שעות",obj_table_head,0,"#e6e6e6",0);
 
 
-    add_top_menu_box(77,"",obj_table_buttom,1,"black",0);
-    add_top_menu_box(120,"",obj_table_buttom,1,"black",0);
-    add_top_menu_box(95,"",obj_table_buttom,1,"black",1);
-    add_top_menu_box(69,"",obj_table_buttom,1,"black",0);
-    add_top_menu_box(78,"",obj_table_buttom,1,"black",0);
-    add_top_menu_box(108,"",obj_table_buttom,1,"black",0);
-    add_top_menu_box(120,"",obj_table_buttom,0,"black",0);
+    add_top_menu_box(77,"",obj_table_buttom,1,"#ffffff",0);
+    add_top_menu_box(120,"",obj_table_buttom,1,"#ffffff",0);
+    add_top_menu_box(95,"",obj_table_buttom,1,"#ffffff",1);
+    add_top_menu_box(69,"",obj_table_buttom,1,"#ffffff",0);
+    add_top_menu_box(78,"",obj_table_buttom,1,"#ffffff",0);
+    add_top_menu_box(108,"",obj_table_buttom,1,"#ffffff",0);
+    add_top_menu_box(120,"",obj_table_buttom,0,"#ffffff",0);
 
 
     obj_table_buttom.style.height="39px";
@@ -79,11 +79,15 @@ window.onload=function(){
 
     document.getElementById("add_logo").addEventListener("click",add_student_button);
   
-    
+        document.getElementById("user_name_arrow").addEventListener("click",open_user_bar);
 
 }
 
+function open_user_bar(){
 
+    alert("aaaa");
+
+}
 
 function add_student_button(){
 
@@ -120,14 +124,14 @@ function create_top_menu_student_section(pic,name,id,student_class,subject,schoo
     
 
 
-    add_top_menu_student_box(77,pic,obj_table_student_section,1,"black",0,1,0);
+    add_top_menu_student_box(77,pic,obj_table_student_section,1,"#ffffff",0,1,0);
 
-    add_top_menu_student_box(120,name,obj_table_student_section,1,"black",0,0,0);
-    add_top_menu_student_box(95,id,obj_table_student_section,1,"black",0,0,1);
-    add_top_menu_student_box(69,student_class,obj_table_student_section,1,"black",0,0,0);
-    add_top_menu_student_box(78,subject,obj_table_student_section,1,"black",0,0,0);
-    add_top_menu_student_box(108,school,obj_table_student_section,1,"black",0,0,0);
-    add_top_menu_student_box(120,hours,obj_table_student_section,0,"black",0,0,0);
+    add_top_menu_student_box(120,name,obj_table_student_section,1,"#ffffff",0,0,0);
+    add_top_menu_student_box(95,id,obj_table_student_section,1,"#ffffff",0,0,1);
+    add_top_menu_student_box(69,student_class,obj_table_student_section,1,"#ffffff",0,0,0);
+    add_top_menu_student_box(78,subject,obj_table_student_section,1,"#ffffff",0,0,0);
+    add_top_menu_student_box(108,school,obj_table_student_section,1,"#ffffff",0,0,0);
+    add_top_menu_student_box(120,hours,obj_table_student_section,0,"#ffffff",0,0,0);
 
 
 }
@@ -176,6 +180,9 @@ function add_top_menu_student_box(w,text,section_el,left_border,color,add_sign,p
             table_student_obj_1.style.textAlign = "center";
             table_student_obj_1.style.fontWeight="bold";
             id_link.setAttribute('target','_blank');
+            id_link.style.textDecoration="underline";
+            
+
 
 
         }
@@ -187,6 +194,7 @@ function add_top_menu_student_box(w,text,section_el,left_border,color,add_sign,p
             table_student_obj_1.style.fontFamily = "helvetica,Charcoal,sans-serif";
             table_student_obj_1.style.fontWeight="bold";
             table_student_obj_1.style.lineHeight = "63px";
+            table_student_obj_1.style.color="#777777";
         }
         
     }

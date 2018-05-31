@@ -18,34 +18,25 @@
 }
 
 #wrapper{
-
         margin:auto;
         width:1000px;
         height: 1000px;
-
-        background-color: aqua;
-
+        
 }
 
 
 .clear{
-
-
     clear:both;
 }
 
 ul{
-
     list-style-type: none;
 }
 
 
 #main_box_notification{
-
     height: 50px;
-
     width: 128.5px;
-
    float: right;   
 }
 
@@ -72,7 +63,7 @@ a:visited {
     float: left;
     width: 1000px;
     height: 500px;
-    background-color: red;
+    
 }
 
 #main_menu{
@@ -105,7 +96,7 @@ a:visited {
 #gray_gradient{
 
     width: 1000px;
-   background-color: red;
+  
    height: 10px;
     box-shadow:10px 10px #888888;
 }
@@ -129,6 +120,36 @@ a{
 }
 
 
+.progress_bar_scale_dot{
+
+    
+    float: right;
+    font-size:24px;
+    background:#0055cc;
+    color:white;
+    width:35px;
+    height:35px;
+    text-align:center;
+    line-height:35px;
+    border-radius:50%;
+    font-family: 'Alef',sans-serif;
+
+
+}
+.gray{
+
+    background-color: #cccccc;
+
+}
+
+.progress_bar_scale_line{
+    width: 70px;
+    height: 3px;
+    background-color: #0055cc;
+    float: right;
+    margin-top:15px;
+}
+
 .badge1 {
     position: relative;
     left:7px;
@@ -149,22 +170,116 @@ a{
     margin-left:38px;
     margin-top:16px;
     width: 683px;
-    background-color: blue;
+    
+}
+
+
+#menu_location{
+
+    height: 25px;
+    float: right;
+    margin-top:21px;
+    width: 200px;
+    margin-right: 31px;
+    
+
+
+}
+
+#menu_location_left_arrow{
+
+    float: right;
+    height: 15px;
+    width: 15px;
+    margin-top:6px;
+    margin-right:8px;
+    background-image: url(../images/left_arrow.png);
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+#progress_bar{
+    float: right;;
+    width: 935px;
+    margin-right: 30px;
+    height: 131px;
+    margin-top:29px;
+    background-color: aqua;
+
+}
+
+#menu_location_left_time_report{
+
+    float: right;
+    margin-right: 7px;
+    line-height:25px;
+
+}
+
+#menu_location_home{
+    width: 25px;
+    height: 25px;
+    float: right;
+    background-image: url(../images/home_logo.png);
+    background-repeat: no-repeat;
+}
+
+#user_name_avatar{
+
+    width: 35px;
+    height: 35px;
+    float: right;
+    background-image: url(../images/avatar.png);
+
+    background-repeat: no-repeat;
+
+}
+
+#user_name_name{
+    
+    text-align:center;
+
+}
+
+#user_name_pro{
+
+    float: right;
+    margin-right: 15px;
+
+}
+
+#user_name_arrow{
+    height: 8px;
+    width: 15px;
+        background-image: url(../images/arrow.png);
+
+        background-repeat: no-repeat;
+
+       
+
+        float: left;
+        margin-left: 10px;
+        margin-top:5px;
 }
 
 #user_name{
+    float:left;
     margin-top:13px;
     margin-left:38px;
     width:130px;
-    height: 39px;
-    background-color: yellow;
+    height: 35px;
+ 
 }
 
 #main_right_menu{
     float:left;
     width: 221px;
     height: 400px;
-    background-color: green;
+
 }
 
 
@@ -173,7 +288,7 @@ a{
     float:left;
     width:  221px;
     height: 470px;
-    background-color: yellow;
+  
 }
 
 #calendar{
@@ -192,6 +307,42 @@ a{
     background-color: darkkhaki;
 }
 
+
+#progress_bar_scale{
+
+
+    float: left;
+
+
+    width: 355px;
+    height: 35px;
+
+    margin-top:13px;
+   
+    
+
+
+
+
+}
+
+
+#progress_bar_left_text{
+    float:right;
+}
+
+#time_report_first_page_form{
+    width: 1000px;
+    height: 304px;
+
+    background-color: black;
+
+    float:left;
+
+
+
+}
+
 @media screen and (max-width:1000px) and (min-width:300px)
 {
     #wrapper{
@@ -200,12 +351,29 @@ a{
         height: 1000px;   
     }
 
+    #progress_bar{
+        width: 690px;
+    }
+
     #top_menu{
         width:750px;
     }
 
+    #time_report_first_page_form{
+
+        width:750px;
+
+    }
+  
+
     #magnifying_glass_id{
         margin-left:10px;
+    }
+
+    #menu_location{
+
+        margin-left:10px;
+
     }
 
     #main_menu{
