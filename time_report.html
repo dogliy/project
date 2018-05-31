@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Time report</title>
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="includes/style.css">
         <script src="includes/time_report_first.js" async></script>
         <link href="https://fonts.googleapis.com/css?family=Alef" rel="stylesheet">
@@ -98,9 +99,71 @@
 
                        <section id="time_report_first_page_form">
 
+                                 <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get" id="myform">
+
+                                        <section dir="rtl" id="time_report_first_page_form_location">
+                                                מנהלה
+                                                &nbsp;
+                                                &nbsp;
+                                                <select name="location" id="time_report_first_page_form_location_in" form="myform">
+                                                            <option value="haifa">חיפה</option>
+                                                            <option value="tel_aviv">תל אביב</option>
+                                                            <option value="jerusalem">ירושלים</option>
+                                                </select>
+                                        </section>
+
+                                        <section dir="rtl" id="time_report_first_page_form_coordinator">
+                                            רכז
+                                            &nbsp;
+                                            &nbsp;
+                                            <input type="text" name="pass"  id="time_report_first_page_form_coordinator_in" >
+                                        </section>
+
+                                        <section dir="rtl" id="time_report_first_page_form_tutor">
+                                            חונך
+                                            &nbsp;
+                                            &nbsp;
+                                            <input type="text" name="pass"  id="time_report_first_page_form_tutor_in"  value="עומר">
+                                        </section>
+
+                                        <div class="clear"></div>
 
 
-                        
+                                        <section dir="rtl" id="time_report_first_page_form_student">
+                                            תלמיד
+                                            &nbsp;
+                                            &nbsp;
+                                            <select name="location" id="time_report_first_page_form_student_in" form="myform">
+                                                        <option value="danial">דניאל ישראלי</option>
+                                                        
+                                            </select>
+
+                                        </section>
+                                            <section dir="rtl" id="time_report_first_page_form_school_name">
+                                                בית ספר
+                                                &nbsp;
+                                                &nbsp;
+                                                <input type="text" name="pass"  id="time_report_first_page_form_school_name_in"  value="עין הרים">
+                                            </section>
+
+                                            <section dir="rtl" id="time_report_first_page_form_date">
+                                                בית ספר
+                                                &nbsp;
+                                                &nbsp;
+                                                <input dir="rtl" id="time" type="time" id="time_report_first_page_form_date_in">
+                                               
+                                            </section>
+
+
+                                    </section>
+
+
+
+                                    <input type="submit" id="submit_id">
+
+                                </form>
+
+
                        </section>
 
 

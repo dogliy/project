@@ -327,6 +327,97 @@ a{
 }
 
 
+
+
+
+#time_report_first_page_form_location{
+
+    float: right;
+    margin-right:33px;
+
+}
+
+#time_report_first_page_form_location_in{
+
+    width: 230px;
+    height: 23px;
+
+}
+
+
+
+
+#time_report_first_page_form_coordinator_in{
+    width: 230px;
+    height: 23px;
+
+
+}
+
+#time_report_first_page_form_coordinator{
+
+    float: right;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+#time_report_first_page_form_tutor_in{
+
+    width: 230px;
+    height: 23px;
+
+}
+
+#time_report_first_page_form_tutor{
+    float: right;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+#time_report_first_page_form_school_name{
+
+ 
+    margin-top:40px;
+    float: right;
+    margin-right:33px;
+
+
+}
+
+#time_report_first_page_form_school_name_in{
+
+    width: 230px;
+    height: 23px;
+
+
+}
+
+
+#time_report_first_page_form_student{
+
+    margin-top:40px;
+    float: right;
+    margin-right:33px;
+
+}
+
+#time_report_first_page_form_student_in{
+
+    width: 230px;
+    height: 23px;
+
+
+}
+
 #progress_bar_left_text{
     float:right;
 }
@@ -335,12 +426,18 @@ a{
     width: 1000px;
     height: 304px;
 
-    background-color: black;
+    
 
     float:left;
 
 
 
+}
+
+#submit_id{
+    float: left;
+    margin-top:264px;
+    margin-left: 36px;
 }
 
 @media screen and (max-width:1000px) and (min-width:300px)
