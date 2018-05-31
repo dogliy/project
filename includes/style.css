@@ -25,12 +25,28 @@
 }
 
 
+.center_form_input{
+
+    width: 300px;
+    height: 30px;
+
+
+    margin: 0 auto;
+}
+
+
 .clear{
     clear:both;
 }
 
 ul{
     list-style-type: none;
+}
+
+
+.margin_center{
+
+    margin:0 auto;
 }
 
 
@@ -402,6 +418,50 @@ a{
 
 }
 
+.float_right{
+
+    float: right;
+    
+}
+
+#secBox{
+
+        float: left;
+    height: 150px;
+    width: 500px;
+
+    background-color: yellow;
+
+
+}
+
+#firstBox{
+    float: left;
+    height: 150px;
+    width: 500px;
+
+    background-color: yellow;
+
+
+
+}
+
+.block{
+
+
+        display: block;
+}
+
+#time_report_sec_page_form{
+
+    width:1000px;
+    height: 150px;
+    
+    float:left;
+
+
+}
+
 #time_report_sec_page_meeting_text{
     float: right;
     font-size:18px;
@@ -471,6 +531,24 @@ a{
 
 }
 
+#timeReportSecPageSubmitCon{
+
+    height: 20px;
+    width: 70px;
+    margin: auto;
+
+}
+
+#timeReportSecPageSubmit{
+    
+    height: 20px;
+    width: 70px;
+    
+    
+
+    
+}
+
 #submit_id{
     float: left;
     margin-top:100px;
@@ -485,7 +563,7 @@ a{
 #time_report_sec_page_box{
     width:1000px;
 
-    height: 374px;
+    height: 200px;
 
     background-color: yellow;
 
@@ -493,10 +571,27 @@ a{
 
 @media screen and (max-width:1000px) and (min-width:300px)
 {
+    #firstBox{
+
+        width:375px;
+
+
+    }
+
+    #secBox{
+        width:375px;
+
+
+    }
 
     #time_report_sec_page_meeting_text{
         margin-right: 25px;
 
+    }
+
+    #time_report_sec_page_form{
+
+            width:750px;
     }
 
     #time_report_sec_page_main_box{

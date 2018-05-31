@@ -1,6 +1,6 @@
 window.onload=function(){
 
-    
+    this.document.getElementById("progress_bar").style.height="100px";
     document.getElementById("time_report_tag").style.fontWeight="bold";
     document.getElementById("user_name_arrow").addEventListener("click",open_user_bar);
 
