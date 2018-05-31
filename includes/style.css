@@ -46,27 +46,18 @@ ul{
 
     width: 128.5px;
 
-   float: right;
-
-   
-   
-    
+   float: right;   
 }
 
 #main_box_notification_in{
-
     position: relative;
     left:3px;
     top:3px;
-
-
 }
 
 
 #main_menu ul a:hover{
-
     color:#ABB2B9;
-
 }
 
 a:visited {
@@ -80,26 +71,17 @@ a:visited {
 #main_id{
     float: left;
     width: 1000px;
-
     height: 500px;
-
     background-color: red;
-
-
 }
 
 #main_menu{
     line-height:50px;
     width: 470px;
     height:50px;
-
-   
-
     margin-right: 40px;
     margin-top:20px;
-
     float: right;
-
 }
 
 
@@ -121,44 +103,33 @@ a:visited {
 }
 
 #gray_gradient{
-    
+
     width: 1000px;
    background-color: red;
    height: 10px;
     box-shadow:10px 10px #888888;
-
-
 }
 
 a{
-
-text-decoration: none;
-
+    text-decoration: none;
 }
 
 #magnifying_glass_id{
-
     float: right; 
-
     margin-right: 31px;
     margin-top:24px;
-
-
 }
 
 
 
 #i_smart_logo_id{
-
     float:left;
-
     margin-top:25px;
     margin-left:17px;
 }
 
 
 .badge1 {
-
     position: relative;
     left:7px;
     top:4px;
@@ -177,11 +148,7 @@ text-decoration: none;
     margin-right: 28px;
     margin-left:38px;
     margin-top:16px;
-
     width: 683px;
-
-  
-
     background-color: blue;
 }
 
@@ -194,26 +161,25 @@ text-decoration: none;
 }
 
 #main_right_menu{
-
     float:left;
     width: 221px;
-
     height: 400px;
-
     background-color: green;
-
 }
 
 
-#calendar{
+#right_menu{
+    margin-top:16px;
+    float:left;
+    width:  221px;
+    height: 470px;
+    background-color: yellow;
+}
 
-        margin-top:16px;
-        
+#calendar{
         float:left;
         width: 221px;
-
         height: 221px;
-
         background-color: black;
 }
 
@@ -229,68 +195,53 @@ text-decoration: none;
 @media screen and (max-width:1000px) and (min-width:300px)
 {
     #wrapper{
-
         margin:auto;
         width:750px;
-        height: 1000px;
-        
+        height: 1000px;   
     }
 
     #top_menu{
         width:750px;
-
     }
 
     #magnifying_glass_id{
         margin-left:10px;
-
-
     }
 
     #main_menu{
-
         margin-right: 5px;
-
     }
 
     .menu_space{
-
         margin-right: 20px;
-
     }
 
     .badge1{
-
         left:24px;
-
-
     }
 
-
-  
-
     #main_id{
-
         width:750px;
-
     }
 
 
     #calendar{
-        margin-top:20px;
-
+        margin-top:0px;
         float:right;
-
-        margin-right: 29px;
-
     }
 
     #note{
         margin-right:20px;
-        margin-top:20px;
+        margin-top:0px;
         float:right;
+    }
 
-        
+
+    #right_menu{
+        width:463px;
+        height: 221px;
+        float: right;
+        margin-right: 28px;
 
     }
 
