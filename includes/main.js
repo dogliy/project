@@ -67,7 +67,7 @@ window.onload=function(){
     obj_table_buttom.style.backgroundColor="green";
 
 
-    document.getElementById("student_table").appendChild(obj_table_head);
+    document.getElementById("time_report_sec_page_table").appendChild(obj_table_head);
 
 
     create_top_menu_student_section("student_1.png","nir adler","302909866","2","english","aaa","2");

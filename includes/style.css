@@ -208,7 +208,7 @@ a{
     margin-right: 30px;
     height: 131px;
     margin-top:29px;
-    background-color: aqua;
+    
 
 }
 
@@ -314,7 +314,7 @@ a{
     float: left;
 
 
-    width: 355px;
+    width: 148px;
     height: 35px;
 
     margin-top:13px;
@@ -326,8 +326,26 @@ a{
 
 }
 
+#time_report_first_page_form_name1{
+    height: 35px;
+    width: 300px;
+    margin:0 auto;
+}
+
+#time_report_first_page_form_id1{
+
+    height: 35px;
+    width: 300px;
+    margin:0 auto;
 
 
+}
+
+#time_report_first_page_form_id1_in{
+    float: left;;
+    margin-left:52px;
+
+}
 
 
 #time_report_first_page_form_location{
@@ -357,12 +375,18 @@ a{
 #time_report_first_page_form_coordinator{
 
     float: right;
-    margin-right: 20px;
+    margin-right: 57px;
 
 }
 
 
+#time_report_sec_page_table{
+    
+    width: 700px;
 
+    margin: 0 auto;
+
+}
 
 
 #time_report_first_page_form_tutor_in{
@@ -374,31 +398,44 @@ a{
 
 #time_report_first_page_form_tutor{
     float: right;
-    margin-right: 20px;
+    margin-right: 38px;
 
+}
+
+#time_report_sec_page_meeting_text{
+    float: right;
+    font-size:18px;
+    columns: #7a7a7a;
+    margin-right: 150px;
+}
+
+#time_report_first_page_form_school_name{
+    margin-top:40px;
+    float: right;
+    margin-right:33px;
+}
+
+#time_report_first_page_form_school_name_in{
+    width: 230px;
+    height: 23px;
 }
 
 
 
 
 
+#time_report_first_page_form_month{
 
-#time_report_first_page_form_school_name{
-
- 
     margin-top:40px;
     float: right;
     margin-right:33px;
 
-
 }
 
-#time_report_first_page_form_school_name_in{
+#time_report_first_page_form_month_in{
 
     width: 230px;
     height: 23px;
-
-
 }
 
 
@@ -426,7 +463,7 @@ a{
     width: 1000px;
     height: 304px;
 
-    
+       
 
     float:left;
 
@@ -436,16 +473,46 @@ a{
 
 #submit_id{
     float: left;
-    margin-top:264px;
-    margin-left: 36px;
+    margin-top:100px;
+    margin-left:40px;
+    height: 40px;
+    width: 100px;
+    
+}
+
+
+
+#time_report_sec_page_box{
+    width:1000px;
+
+    height: 374px;
+
+    background-color: yellow;
+
 }
 
 @media screen and (max-width:1000px) and (min-width:300px)
 {
+
+    #time_report_sec_page_meeting_text{
+        margin-right: 25px;
+
+    }
+
+    #time_report_sec_page_main_box{
+
+        width: 200px;
+    }
+
     #wrapper{
         margin:auto;
         width:750px;
         height: 1000px;   
+    }
+
+    #submit_id{
+
+        margin-left:330px;
     }
 
     #progress_bar{
@@ -509,5 +576,49 @@ a{
         margin-right: 28px;
 
     }
+    #time_report_first_page_form_location{   
+            width: 750px;
+            margin-right: 200px;
+            margin-top:0px;
+    }
+    #time_report_first_page_form_coordinator{
+        width: 750px;
+        margin-right: 215px;
+        margin-top:20px;
+        
+        
+    }
+    #time_report_first_page_form_student{
+        width: 750px;
+        margin-right: 200px;
+        margin-top:20px;
+    }
+    #time_report_first_page_form_month{
+        width: 750px;
+        margin-top:20px;
+        margin-right: 205px;
+    }
+    #time_report_first_page_form_school_name{
+        width: 750px;
+        margin-top:20px;
+        margin-right: 190px;
+  
+    }
 
+    #time_report_first_page_form_tutor{
+        width: 750px;
+        margin-right: 210px;
+        margin-top:20px;
+        
+
+
+    }
+
+    #time_report_sec_page_box{
+        width: 750px;
+    }
+  
 }
+
+
+
