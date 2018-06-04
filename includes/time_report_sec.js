@@ -23,12 +23,12 @@ window.onload=function(){
 
     document.getElementById("time_report_sec_page_table").appendChild(obj_table_head);
 
-    add_top_menu_box(52,"תאריך",obj_table_head,"#ffffff",1);
+    add_top_menu_box(70,"תאריך",obj_table_head,"#ffffff",1);
     add_top_menu_box(69,"יום",obj_table_head,"#ffffff",1);
     add_top_menu_box(65,"משעה",obj_table_head,"#ffffff",1);
     add_top_menu_box(75,"עד שעה",obj_table_head,"#ffffff",1);
     add_top_menu_box(85,"סך השעות",obj_table_head,"#ffffff",1);
-    add_top_menu_box(125,"מקום פגישה",obj_table_head,"#ffffff",1);
+    add_top_menu_box(117,"מקום פגישה",obj_table_head,"#ffffff",1);
     add_top_menu_box(115,"תוכן הפגישה",obj_table_head,"#ffffff",1);
     add_top_menu_box(100,"הוצאות נסיעה",obj_table_head,"#ffffff",0);
 
@@ -85,7 +85,7 @@ function addRow(date,day,fromTime,toTime,totalTime,place,content,cost)
     var tableObj=document.createElement("section");
 
     var  obj_table_student_section=document.createElement("section");
-    tableObj.style.height="37px";
+    tableObj.style.height="35px";
     tableObj.style.width="700px";
     tableObj.style.borderBottom="2px solid #c0c0c0";
     tableObj.style.borderRight="2px solid #c0c0c0";
@@ -97,12 +97,12 @@ function addRow(date,day,fromTime,toTime,totalTime,place,content,cost)
     
         document.getElementById("time_report_sec_page_table").appendChild(tableObj);
     
-        add_top_menu_box(52,date,tableObj,"#ffffff",1);
+        add_top_menu_box(70,date,tableObj,"#ffffff",1);
         add_top_menu_box(69,day,tableObj,"#ffffff",1);
         add_top_menu_box(65,fromTime,tableObj,"#ffffff",1);
         add_top_menu_box(75,toTime,tableObj,"#ffffff",1);
         add_top_menu_box(85,totalTime,tableObj,"#ffffff",1);
-        add_top_menu_box(125,place,tableObj,"#ffffff",1);
+        add_top_menu_box(117,place,tableObj,"#ffffff",1);
         add_top_menu_box(115,content,tableObj,"#ffffff",1);
         add_top_menu_box(100,cost,tableObj,"#ffffff",0);
 
@@ -144,7 +144,7 @@ function add_top_menu_box(w,name,obj_row,obj_color,left_border){
     var tableObj=document.createElement("section");  
     
     tableObj.style.width=w+"px";
-    tableObj.style.height="37px";
+    tableObj.style.height="33px";
 
     if(left_border==1)
     {

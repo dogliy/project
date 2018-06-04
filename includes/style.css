@@ -24,10 +24,21 @@
         
 }
 
+.input_style{
+   
+    height:27px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.float_right_input{
+
+    float: right;
+}
 
 .center_form_input{
 
-    width: 300px;
+    width: 295px;
     height: 30px;
 
 
@@ -391,6 +402,82 @@ a{
 
 }
 
+
+
+#timeReportSecPageToTimeIn{
+    float: left;
+
+    margin-right: 46px;
+
+}
+
+
+#time_report_sec_page_date_in{
+
+    float: left;
+
+    margin-right:57px;
+
+}
+
+#time_report_sec_page_day_in{
+
+    float: left;
+
+    margin-right:81px;
+
+
+}
+
+#time_report_sec_page_from_time_in{
+
+    float: left;
+
+    margin-right: 57px;
+
+}
+
+#timeReportSecPageTotalTimeIn{
+
+    float: left;
+
+    margin-right: 28px;
+
+}
+
+#timeReportSecPagePlaceIn{
+    float: left;
+
+    margin-right: 64px;
+
+
+}
+
+#timeReportSecPageToContentIn{
+
+    float: left;
+
+    margin-right: 13px;
+
+}
+
+.margin_top_space2{
+
+    margin-top:10px;
+}
+
+.margin_top_spcae{
+
+    float: left;
+    margin-top:13px;
+
+}
+
+#time_report_first_page_form_name1_in{
+    float: left;
+    margin-left:53px;
+}
+
 #time_report_first_page_form_name1{
     height: 35px;
     width: 300px;
@@ -398,12 +485,8 @@ a{
 }
 
 #time_report_first_page_form_id1{
-
-    height: 35px;
     width: 300px;
     margin:0 auto;
-
-
 }
 
 #time_report_first_page_form_id1_in{
@@ -426,6 +509,8 @@ a{
     height: 23px;
 
 }
+
+
 
 
 
@@ -476,18 +561,24 @@ a{
 #secBox{
 
         float: left;
+        margin-left:130px;
     height: 150px;
-    width: 500px;
+    width: 300px;
 
+   
     
 
 
 }
 
 #firstBox{
-    float: left;
+    float: right;
+    margin-right: 150px;
     height: 150px;
-    width: 500px;
+    width:300px;
+
+
+   
 
 
 
@@ -516,6 +607,7 @@ a{
     font-size:18px;
     columns: #7a7a7a;
     margin-right: 150px;
+    margin-bottom: 20px;
 }
 
 #time_report_first_page_form_school_name{
@@ -581,16 +673,17 @@ a{
 }
 
 #timeReportSecPageSubmitCon{
-
+    margin-left:150px;
     height: 20px;
     width: 70px;
-    margin: auto;
+    float:left;
 
 }
 
 #timeReportSecPageSubmitFake{
-
-    height: 20px;
+    
+    margin-top:20px;
+    height: 35px;
     width: 70px;
 }
 
@@ -610,12 +703,17 @@ a{
     margin-left:40px;
     height: 40px;
     width: 100px;
+
+    border: 2px solid gray;
+    border-radius: 3px;
     
 }
 
 
 
 #time_report_sec_page_box{
+    margin-top:100px;
+    float: left;
     width:1000px;
 
     height: 200px;
@@ -624,18 +722,33 @@ a{
 
 }
 
+
 @media screen and (max-width:1000px) and (min-width:300px)
 {
+
+    #top_continer{
+
+        
+            width: 750px;
+            height: 150px;
+            float: left;
+       
+    }
+
+
     #firstBox{
+       
+        width:300px;
 
-        width:375px;
-
+       
 
     }
 
     #secBox{
-        width:375px;
+        float: right;
+        width:300px;
 
+        
 
     }
 
@@ -645,7 +758,7 @@ a{
     }
 
     #time_report_sec_page_form{
-
+            height: 1000px;
             width:750px;
     }
 
@@ -662,7 +775,7 @@ a{
 
     #submit_id{
 
-        margin-left:330px;
+        margin-left:40px;
     }
 
     #progress_bar{

@@ -70,7 +70,7 @@ function add_top_menu_box(w,name,obj_row,obj_color,left_border){
     tableObj.style.textAlign = "center";
     tableObj.style.fontFamily = "helvetica,Charcoal,sans-serif";
     tableObj.style.fontWeight="bold";
-    tableObj.style.lineHeight = "37px";
+    tableObj.style.lineHeight = "32px";
     obj_row.appendChild(tableObj);
 
 }
