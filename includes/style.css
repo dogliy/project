@@ -13,7 +13,7 @@
 
 .menu_space{
 
-    margin-right: 37px;
+    margin-right: 26px;
 
 }
 
@@ -101,6 +101,55 @@ a:visited {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+#student_box{
+
+    float: right;
+
+    width: 200px;
+
+    height: 394px;
+    margin-right: 40px;
+    margin-top:32px;
+    background-color: red;
+
+}
+
+
+#student_box{
+
+    text-align: center;
+
+}
+
+
+
+
+
+#studentInfoTable{
+
+    width: 525px;
+    height: 100px;
+
+    background-color: red;
+
+    margin-left:150px;
+    margin-top:100px;   
+
+    float:left;
+
+}
+
+
 .menu_box{
     
     float:right;
@@ -168,7 +217,7 @@ a{
 
 .badge1 {
     position: relative;
-    left:7px;
+    left:17px;
     top:4px;
     font-size:14px;
     background:#0055cc;
@@ -430,7 +479,7 @@ a{
     height: 150px;
     width: 500px;
 
-    background-color: yellow;
+    
 
 
 }
@@ -440,7 +489,7 @@ a{
     height: 150px;
     width: 500px;
 
-    background-color: yellow;
+
 
 
 
@@ -539,6 +588,12 @@ a{
 
 }
 
+#timeReportSecPageSubmitFake{
+
+    height: 20px;
+    width: 70px;
+}
+
 #timeReportSecPageSubmit{
     
     height: 20px;
@@ -565,7 +620,7 @@ a{
 
     height: 200px;
 
-    background-color: yellow;
+  
 
 }
 

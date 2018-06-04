@@ -172,15 +172,14 @@ function add_top_menu_student_box(w,text,section_el,left_border,color,add_sign,p
         {
             var id_link=document.createElement('a');
 
-            id_link.href = "http://www.ebay.com";
-
+            id_link.href = "show_student.html";
             id_link.innerHTML=text;
             table_student_obj_1.appendChild(id_link);
             table_student_obj_1.style.lineHeight = "63px";
             table_student_obj_1.style.textAlign = "center";
             table_student_obj_1.style.fontWeight="bold";
             id_link.setAttribute('target','_blank');
-            id_link.style.textDecoration="underline";
+            id_link.style.textDecoration="none";
             
 
 

@@ -1,5 +1,8 @@
 window.onload=function(){
 
+
+    
+
     this.document.getElementById("progress_bar").style.height="100px";
     document.getElementById("time_report_tag").style.fontWeight="bold";
     document.getElementById("user_name_arrow").addEventListener("click",open_user_bar);
@@ -20,21 +23,59 @@ window.onload=function(){
 
     document.getElementById("time_report_sec_page_table").appendChild(obj_table_head);
 
-    add_top_menu_box(52,"תאריך",obj_table_head,"black",1);
-    add_top_menu_box(69,"יום",obj_table_head,"black",1);
-    add_top_menu_box(65,"משעה",obj_table_head,"black",1);
-    add_top_menu_box(75,"עד שעה",obj_table_head,"black",1);
-    add_top_menu_box(85,"סך השעות",obj_table_head,"black",1);
-    add_top_menu_box(125,"מקום פגישה",obj_table_head,"black",1);
-    add_top_menu_box(115,"תוכן הפגישה",obj_table_head,"black",1);
-    add_top_menu_box(100,"הוצאות נסיעה",obj_table_head,"black",0);
+    add_top_menu_box(52,"תאריך",obj_table_head,"#ffffff",1);
+    add_top_menu_box(69,"יום",obj_table_head,"#ffffff",1);
+    add_top_menu_box(65,"משעה",obj_table_head,"#ffffff",1);
+    add_top_menu_box(75,"עד שעה",obj_table_head,"#ffffff",1);
+    add_top_menu_box(85,"סך השעות",obj_table_head,"#ffffff",1);
+    add_top_menu_box(125,"מקום פגישה",obj_table_head,"#ffffff",1);
+    add_top_menu_box(115,"תוכן הפגישה",obj_table_head,"#ffffff",1);
+    add_top_menu_box(100,"הוצאות נסיעה",obj_table_head,"#ffffff",0);
 
 
     addRow("1.1.18","ראשון","15:00","17:00","שעתיים","ירושלים","אנגלית","11.40");
 
+    
+
+    document.getElementById("timeReportSecPageSubmit").addEventListener("click",addRecordToTable);
+    document.getElementById("timeReportSecPageSubmit").style.visibility = "hidden";
+    
+    document.getElementById("timeReportSecPageSubmitFake").addEventListener("click",addRecordToTable);
+  
+
 }
 
+function addRecordToTable(){
 
+   
+
+   // alert( document.getElementById("time_report_sec_page_date_in").value);
+
+
+   // time_report_sec_page_date_in
+
+   // time_report_sec_page_day_in
+
+   // time_report_sec_page_from_time_in
+
+
+   // timeReportSecPageToTimeIn
+
+
+   // timeReportSecPageTotalTimeIn
+
+   // timeReportSecPagePlaceIn
+
+   // timeReportSecPageToContentIn
+
+  //  timeReportSecPageToCostIn
+
+
+    addRow(document.getElementById("time_report_sec_page_date_in").value,document.getElementById("time_report_sec_page_day_in").value,document.getElementById("time_report_sec_page_from_time_in").value,document.getElementById("timeReportSecPageToTimeIn").value,document.getElementById("timeReportSecPageTotalTimeIn").value,document.getElementById("timeReportSecPagePlaceIn").value,document.getElementById("timeReportSecPageToContentIn").value,document.getElementById("timeReportSecPageToCostIn").value);
+
+
+
+}
 
 
 
@@ -56,14 +97,14 @@ function addRow(date,day,fromTime,toTime,totalTime,place,content,cost)
     
         document.getElementById("time_report_sec_page_table").appendChild(tableObj);
     
-        add_top_menu_box(52,date,tableObj,"black",1);
-        add_top_menu_box(69,day,tableObj,"black",1);
-        add_top_menu_box(65,fromTime,tableObj,"black",1);
-        add_top_menu_box(75,toTime,tableObj,"black",1);
-        add_top_menu_box(85,totalTime,tableObj,"black",1);
-        add_top_menu_box(125,place,tableObj,"black",1);
-        add_top_menu_box(115,content,tableObj,"black",1);
-        add_top_menu_box(100,cost,tableObj,"black",0);
+        add_top_menu_box(52,date,tableObj,"#ffffff",1);
+        add_top_menu_box(69,day,tableObj,"#ffffff",1);
+        add_top_menu_box(65,fromTime,tableObj,"#ffffff",1);
+        add_top_menu_box(75,toTime,tableObj,"#ffffff",1);
+        add_top_menu_box(85,totalTime,tableObj,"#ffffff",1);
+        add_top_menu_box(125,place,tableObj,"#ffffff",1);
+        add_top_menu_box(115,content,tableObj,"#ffffff",1);
+        add_top_menu_box(100,cost,tableObj,"#ffffff",0);
 
 
 
